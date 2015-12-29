@@ -1,6 +1,6 @@
 # InsertSort By JavaScript
 
-##userage 
+##Userage 
 
 ```
 InsertSort((1,2,34,3,56))
