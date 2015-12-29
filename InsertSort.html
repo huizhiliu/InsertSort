@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>InsertSort</title>
+</head>
+<body>
+	<script>
+	var InsertSort = function(arr) {
+
+		arr.forEach(function(item,index){
+			var value = item,
+				j = index - 1;
+			while(j>=0 && arr[j]>value){
+				arr[j+1] = arr[j]
+				j--;
+			}
+			arr[j+1] = value;
+		})
+
+		return arr;
+	}
+
+	</script>
+</body>
+</html>
